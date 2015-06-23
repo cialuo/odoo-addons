@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+<data>
+
+  <template id="baidu_analytics" inherit_id="website.layout">
+    <xpath expr="//body" position="inside">
+        <script t-if="website and website.baidu_analytics_key">
+            var _hmt = _hmt || [];
+            (function() {
+              var hm = document.createElement("script");
+              hm.src = "//hm.baidu.com/hm.js?<t t-esc="website.baidu_analytics_key"/>";
+              var s = document.getElementsByTagName("script")[0];
+              s.parentNode.insertBefore(hm, s);
+            })();
+        </script>
+    </xpath>
+  </template>
+
+
+</data>
+</openerp>

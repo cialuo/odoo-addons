@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+
+        <record id="view_website_config_settings_sns" model="ir.ui.view">
+            <field name="name">Website settings baidu analytics key</field>
+            <field name="model">website.config.settings</field>
+            <field name="inherit_id" ref="website.view_website_config_settings" />
+            <field name="arch" type="xml">
+                <xpath expr="//group[@string='Domain']" position="inside">
+                    <label for="baidu_analytics_key"/>
+                    <div name="baidu_analytics_key">
+                        <div class="oe_inline">
+                            <field name="baidu_analytics_key" placeholder="Baidu Analytics Key"/>
+                        </div>
+                    </div>
+                </xpath>
+            </field>
+        </record>
+
+    </data>
+</openerp>
