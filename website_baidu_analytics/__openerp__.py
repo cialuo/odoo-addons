@@ -2,9 +2,9 @@
 ##############################################################################
 #
 #    OpenERP, Open Source Management Solution
-#    Copyright (c) 2001-2015 Zhuhai sunlight software development co.,ltd. All Rights Reserved.
-#    Author: Kenny
-#    Website: http://zhsunlight.cn
+#    Copyright (c) 2001-2015 Moco co.,ltd. All Rights Reserved.
+#    Author: Alex
+#    Website: https://github.com/glovebx
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Affero General Public License as
