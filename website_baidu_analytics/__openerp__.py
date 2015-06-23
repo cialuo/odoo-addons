@@ -30,7 +30,7 @@
 ================================================
     """,
     'author': 'Alex',
-    'website': 'http://moco.co',
+    'website': 'https://github.com/glovebx',
     'depends': ['website'],
     'data': [
         'res_config.xml',
