@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+<data>
+
+  <template id="footer_china" inherit_id="website.footer_default" customize_show="True" name="Automatic Footer">
+    <xpath expr="//div[@id='info']/h2" position="inside">
+      <h2>
+          <a t-att-href="website.social_qq" t-if="website.social_qq" target="_blank"><i class="fa fa-qq"/></a>
+          <a t-att-href="website.social_weibo" t-if="website.social_weibo" target="_blank"><i class="fa fa-weibo"/></a>
+          <a t-att-href="website.social_weixin" t-if="website.social_weixin" target="_blank"><i class="fa fa-weixin"/></a>
+          <!--<a t-att-href="website.social_renren" t-if="website.social_renren" target="_blank"><i class="fa fa-renren"/></a>-->
+          <a t-att-href="website.social_phone" t-if="website.social_phone" target="_blank"><i class="fa fa-phone-square"/></a>
+          <a t-att-href="website.social_mail" t-if="website.social_mail" target="_blank"><i class="fa fa-envelope-square"/></a>
+      </h2>
+    </xpath>
+  </template>
+
+
+</data>
+</openerp>

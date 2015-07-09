@@ -1,0 +1,78 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* website_china_sns
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 8.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-01-31 03:34+0000\n"
+"PO-Revision-Date: 2015-01-31 11:37+0800\n"
+"Last-Translator: Kenny <sales@zhsunlight.cn>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: zh_CN\n"
+"X-Generator: Poedit 1.7.1\n"
+
+#. module: website_china_sns
+#: field:website,social_mail:0 field:website.config.settings,social_mail:0
+msgid "Mail Account"
+msgstr "邮件地址"
+
+#. module: website_china_sns
+#: field:website,social_phone:0 field:website.config.settings,social_phone:0
+msgid "Phone Account"
+msgstr "联系电话"
+
+#. module: website_china_sns
+#: field:website,social_qq:0 field:website.config.settings,social_qq:0
+msgid "QQ Account"
+msgstr "QQ 号码"
+
+#. module: website_china_sns
+#: field:website,social_renren:0 field:website.config.settings,social_renren:0
+msgid "Renren Account"
+msgstr "人人网账号"
+
+#. module: website_china_sns
+#: model:ir.model,name:website_china_sns.model_website
+msgid "Website"
+msgstr "网站"
+
+#. module: website_china_sns
+#: field:website,social_weibo:0 field:website.config.settings,social_weibo:0
+msgid "Weibo Account"
+msgstr "微博账号"
+
+#. module: website_china_sns
+#: field:website,social_weixin:0 field:website.config.settings,social_weixin:0
+msgid "Weixin Account"
+msgstr "微信账号"
+
+#. module: website_china_sns
+#: view:website.config.settings:website_china_sns.view_website_config_settings_sns
+msgid "http://weibo.com/sunlightsoft"
+msgstr "http://weibo.com/sunlightsoft"
+
+#. module: website_china_sns
+#: view:website.config.settings:website_china_sns.view_website_config_settings_sns
+msgid "http://wpa.qq.com/msgrd?v=3&uin=2848445291&site=qq&menu=yes"
+msgstr "http://wpa.qq.com/msgrd?v=3&uin=2848445291&site=qq&menu=yes"
+
+#. module: website_china_sns
+#: view:website.config.settings:website_china_sns.view_website_config_settings_sns
+msgid "http://www.renren.com/343594878/profile"
+msgstr "http://www.renren.com/343594878/profile"
+
+#. module: website_china_sns
+#: view:website.config.settings:website_china_sns.view_website_config_settings_sns
+msgid "mailto:sales@zhsunlight.cn"
+msgstr "mailto:sales@zhsunlight.cn"
+
+#. module: website_china_sns
+#: view:website.config.settings:website_china_sns.view_website_config_settings_sns
+msgid "tel://18675626598"
+msgstr "tel://18675626598"

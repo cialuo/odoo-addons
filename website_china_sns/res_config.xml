@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+
+        <record id="view_website_config_settings_sns" model="ir.ui.view">
+            <field name="name">Website settings sns</field>
+            <field name="model">website.config.settings</field>
+            <field name="inherit_id" ref="website.view_website_config_settings" />
+            <field name="arch" type="xml">
+                <xpath expr="//group[@string='Social Media']" position="inside">
+                    <label for="social_weibo"/>
+                    <div name="social_weibo">
+                        <div class="oe_inline">
+                            <field name="social_weibo" placeholder="http://weibo.com/"/>
+                        </div>
+                    </div>
+                    <label for="social_qq"/>
+                    <div name="social_qq">
+                        <div class="oe_inline">
+                            <field name="social_qq" placeholder="http://wpa.qq.com/msgrd?v=3&amp;uin=1069010&amp;site=qq&amp;menu=yes"/>
+                        </div>
+                    </div>
+                    <label for="social_weixin"/>
+                    <div name="social_weixin">
+                        <div class="oe_inline">
+                            <field name="social_weixin"/>
+                        </div>
+                    </div>
+                    <!--<label for="social_renren"/>-->
+                    <!--<div name="social_renren">-->
+                        <!--<div class="oe_inline">-->
+                            <!--<field name="social_renren" placeholder="http://www.renren.com/343594878/profile"/>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                    <label for="social_phone"/>
+                    <div name="social_phone">
+                        <div class="oe_inline">
+                            <field name="social_phone" placeholder="tel://13484033530"/>
+                        </div>
+                    </div>
+                    <label for="social_mail"/>
+                    <div name="social_mail">
+                        <div class="oe_inline">
+                            <field name="social_mail" placeholder="mailto:service@moco.co"/>
+                        </div>
+                    </div>
+                </xpath>
+            </field>
+        </record>
+
+    </data>
+</openerp>
