@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<openerp>
+  <data>
+
+    <!-- Customize footer  -->
+    <template id="mail_tweaker" inherit_id="mail.WebClient.announcement_bar" name="Mail tweak">
+      <!-- Replace an element of the footer  -->
+      <xpath expr="//div[@id='announcement_bar_table']" position="replace">
+        <div class="openerp" id="announcement_bar_table">
+        </div>
+      </xpath>
+    </template>
+  </data>
+</openerp>

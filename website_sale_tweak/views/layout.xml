@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<openerp>
+  <data>
+    <!-- Customize title  -->
+    <template id="products_pager_tweaker" inherit_id="website_sale.products" name="Website sale products header">
+      <!-- 只会替换第一处出现的div？？？？  -->
+      <xpath expr="//div[@class='products_pager']" position="replace">
+        <div></div>
+      </xpath>
+    </template>
+
+    <template id="layout_header_tweaker" inherit_id="website_sale.header" name="Website layout header">
+      <!-- 只会替换第一处出现的div？？？？  -->
+      <xpath expr="//header//div[@class='container']/div[last()]" position="inside">
+        <t t-call="website_sale.search"><t t-set="search_class">pagination form-inline col-md-3</t></t>
+      </xpath>
+    </template>
+  </data>
+</openerp>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<templates xml:space="preserve">
+    <t t-extend="WebClient.announcement_bar">
+        <t t-jquery="div" t-operation="replace">
+            <div class="openerp" id="announcement_bar_table">
+            </div>
+        </t>
+    </t>
+</templates>

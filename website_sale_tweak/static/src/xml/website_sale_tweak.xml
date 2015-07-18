@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<openerp>
+  <data>
+    <!-- Customize title  -->
+    <template id="head_tweaker" inherit_id="website_sale.products" name="Website products header">
+      <!-- Replace an element of the footer  -->
+      <xpath expr="//div[@class='products_pager']" position="replace">
+        <div></div>
+      </xpath>
+    </template>
+  </data>
+</openerp>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<openerp>
+  <data>
+    <!-- Customize title  -->
+    <template id="head_tweaker" inherit_id="web.layout" name="Web head tweak">
+      <!-- Replace an element of the footer  -->
+      <xpath expr="//title" position="replace">
+        <title>杭州满谷信息科技有限公司</title>
+      </xpath>
+    </template>
+
+    <!-- Customize footer  -->
+    <template id="footer_tweaker" inherit_id="web.menu_secondary" name="Web footer tweak">
+      <!-- Replace an element of the footer  -->
+      <xpath expr="//div[@class='oe_footer']" position="replace">
+        <div class="oe_footer">
+            <!--Powered by <a href="http://www.moco.co" target="_blank"><span>Alex</span></a>-->
+        </div>
+      </xpath>
+    </template>
+  </data>
+</openerp>

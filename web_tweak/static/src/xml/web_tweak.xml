@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<templates xml:space="preserve">
+    <t t-extend="UserMenu">
+        <t t-jquery=".dropdown-menu li:eq(1)" t-operation="replace">
+            <li class="moco_support_contact">
+                <a data-menu="support" href="#">Moco Support</a>
+            </li>
+        </t>
+        <t t-jquery=".dropdown-menu li:eq(2)" t-operation="replace">
+            <li class="moco_about">
+                <a data-menu="about" href="#">About Moco</a>
+            </li>
+        </t>
+    </t>
+</templates>
